@@ -1,0 +1,17 @@
+/*
+
+app-template.css overrides
+
+remove this comment if used
+remove this file if not
+
+*/
+.inText {
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+.todo-list li.completed .inText {
+  color: #d9d9d9;
+	text-decoration: line-through;
+}
